@@ -1,4 +1,3 @@
-
 #define yyyy 0
 #define MM 1
 #define dd 2
@@ -6,6 +5,11 @@
 #define mm 4
 #define ss 5
 
+/*
+本代码为8位平台单片机使用
+其中int占2字节，long占4字节
+请根据自己硬件平台修改
+*/
 
 //时钟缓冲区
 xdata int g_time[6];

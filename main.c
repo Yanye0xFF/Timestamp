@@ -14,6 +14,7 @@
 //时钟缓冲区
 xdata int g_time[6];
 
+code const char dayOfMonth[] = {31,28,31,30,31,30,31,31,30,31,30,31};
 /*
 解析时间戳信息到年月日时分秒
 @param ts 10位时间戳信息,4字节
